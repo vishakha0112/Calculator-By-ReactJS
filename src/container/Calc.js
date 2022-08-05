@@ -30,7 +30,7 @@ computeIt(){
 }
     render() {
         return (
-            <div className="container">
+            <div className="container" style={{width: "20%", marginTop:"100px" }}>
                 <h1 className="alert-info text-center">Calculator</h1>
                 <Output result={this.state.currentValue}/>
                 <table className="table table-bordered">
